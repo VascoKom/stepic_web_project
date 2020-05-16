@@ -1,0 +1,9 @@
+Home:
+  cd web
+  git add *
+  git commit -a -m "Описание коммита"
+  git push
+
+
+Stepik:
+  git clone https://github.com/VascoKom/stepic_web_project /home/box/web

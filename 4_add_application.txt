@@ -1,0 +1,6 @@
+# RUN From MY_PROJECT!!!
+
+source env/bin/activate
+python manage.py startapp my_appl
+
+

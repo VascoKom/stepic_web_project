@@ -1,0 +1,6 @@
+
+manually:
+  source env/bin/activate
+  bash init.sh
+  cd /home/box/web/ask
+  sudo gunicorn -c /home/box/web/etc/gunicorn_cfg.py ask.wsgi:application
