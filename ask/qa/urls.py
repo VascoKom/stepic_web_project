@@ -11,9 +11,8 @@ urlpatterns = [
     path('ask/', test),
     path('popular/', test),
     path('new/', test),
-    path('/', test),
-    #path('', test),
-    re_path(r'^', test),
+    re_path(r'^$',test),
+    path('', err404),
 ]
 
 
