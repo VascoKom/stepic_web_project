@@ -1,4 +1,5 @@
 from django.urls import path
+from django.urls import re_path
 from qa.views import test
 from qa.views import err404
 
@@ -11,7 +12,8 @@ urlpatterns = [
     path('popular/', test),
     path('new/', test),
     path('/', test),
-    path('', err404),
+    #path('', test),
+    re_path(r'^', test),
 ]
 
 
