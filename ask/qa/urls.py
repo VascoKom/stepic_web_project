@@ -5,11 +5,11 @@ from qa.views import err404
 
 urlpatterns = [
     path('question/<int>/', test),
-    path('login/', err404),
-    path('signup/', err404),
-    path('ask/', err404),
-    path('popular/', err404),
-    path('new/', err404),
+    path('login/', test),
+    path('signup/', test),
+    path('ask/', test),
+    path('popular/', test),
+    path('new/', test),
     path('', test),
 ]
 
