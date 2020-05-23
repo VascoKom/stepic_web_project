@@ -10,7 +10,7 @@ urlpatterns = [
     path('ask/', err404),
     path('popular/', err404),
     path('new/', err404),
-    path('', err404),
+    path('', test),
 ]
 
 
