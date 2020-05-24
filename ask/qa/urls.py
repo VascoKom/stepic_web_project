@@ -12,7 +12,7 @@ urlpatterns = [
     path('popular/', test),
     path('new/', test),
     re_path(r'^$',test),
-    path('', err404),
+    #path('', err404),
 ]
 
 
