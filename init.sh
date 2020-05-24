@@ -3,5 +3,5 @@ sudo rm /etc/nginx/sites-enabled/default
 sudo systemctl restart nginx
 
 cd /home/box/web/ask
-sudo gunicorn -c /home/box/web/etc/gunicorn_cfg.py --access-logfile acc.log ask.wsgi:application
+sudo gunicorn -c /home/box/web/etc/gunicorn_cfg.py ask.wsgi:application
 
