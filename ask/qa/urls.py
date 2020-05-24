@@ -21,7 +21,7 @@ urlpatterns = [
     re_path(r'^popular/', test),
     re_path(r'^new/', test),
     re_path(r'^question/', test),
-    re_path(r'^', err404),
+    #re_path(r'^', err404),
 ]
 
 
